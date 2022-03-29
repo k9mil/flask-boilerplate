@@ -53,13 +53,13 @@ Simple layout, with Flask + Blueprints.
 
 2. Initialize a virtual environment for packages.
     ``` 
-    [PowerShell]
+    [Powershell]
     > python -m venv venv
     > venv/Scripts/activate
     
     [Bash]
     $ python -m venv venv
-    $ source env/bin/activate
+    $ source venv/bin/activate
     ```
 
 3. Install the dependencies.
@@ -69,11 +69,11 @@ Simple layout, with Flask + Blueprints.
 
 4. Set up the flask variables.
     ```
-    [PowerShell]
-    > $env:FLASK_APP = "hello"
+    [Powershell]
+    > $env:FLASK_APP = "project"
 
     [Bash]
-    $ export FLASK_APP=hello
+    $ export FLASK_APP=project
     ```
 
 5. Run the flask application.
